@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+strong {
+    font: 900 18px Roboto;
+}
+
 /* Header */
 
 header .container {
@@ -60,9 +64,12 @@ header .container {
 
 /* Icone de busca */
 
-.material-icons {
-     font-size: 36px;
+.search {
      color: blue;
+}
+
+.material-icons {
+    font-size: 36px;
 }
 
 /* Conteúdo principal */
@@ -73,9 +80,11 @@ main img {
 
 .candidate-profile {
     padding: 30px 70px;
-    border: 1px solid black;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    bottom: 40px;
 }
 
 .candidate-profile header {
@@ -124,4 +133,11 @@ main img {
 
 .history-proposal {
     display: flex;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
