@@ -177,6 +177,7 @@ main img {
 .history-proposal {
     display: flex;
     color: white;
+    margin-bottom: 50px;
 }
 
 .candidate-history,
@@ -202,6 +203,39 @@ main img {
 .candidate-proposal:hover {
     cursor: pointer;
     box-shadow: 7px 5px 22px -3px rgba(35,28,230,1);
+}
+
+.related-news {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.others {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    transition: 1s ease-in;
+    cursor: pointer;
+}
+
+.circulo:hover{
+	transform: rotateY(180deg);
+}
+
+.circulo img {
+    border-radius: 50%;
+}
+
+.others .circulo p {
+    margin-top: 20px;
+    text-align: center;
 }
 
 footer {
