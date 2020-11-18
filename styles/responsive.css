@@ -1,0 +1,86 @@
+@media (max-width: 1111px) {
+    .candidate-infos .frame .info-text h3 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .circle {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 936px) {
+    .birthday,
+    .civil-state,
+    .graduation,
+    .profession {
+        height: 144px;
+    }
+
+    .candidate-situation h3,
+    .candidate-situation span {
+        font-size: 14px;
+    }
+
+    .history-proposal .candidate-history h3,
+    .history-proposal .candidate-proposal h3 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 800px) {
+    .candidate-situation h3,
+    .candidate-situation span {
+        font-size: 12px;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .other-name {
+        width: 100px;
+    }
+
+    .other-name p {
+        font-size: 15px;
+    }
+
+    .other-name span {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 700px) {
+
+    .candidate-profile header .candidate-name h1 {
+        font-size: 30px;
+    }
+
+    .candidate-profile header .candidate-name span {
+        font-size: 15px;
+    }
+
+    .candidate-description p {
+        font-size: 14px;
+    }
+
+    .candidate-profile header .candidate-number {
+        width: 75px;
+        height: 75px;
+    }
+
+    .candidate-infos {
+        grid-template-columns: 2fr 2fr;
+    }
+    
+    .birthday,
+    .civil-state,
+    .graduation,
+    .profession {
+        height: 114px;
+    }
+}
